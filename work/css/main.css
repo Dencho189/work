@@ -1,0 +1,337 @@
+@import "bootstrap.min.css";
+@import "fonts.css";
+
+body{
+
+}
+
+.container-fluid{
+    padding: 0;
+}
+.row{
+    /*margin-left: 0;*/
+}
+/*header*/
+header{
+    border-top: 3px solid #5bbd50;
+}
+
+.center_block{
+    width: 65%;
+    margin: 0 auto;
+}
+
+header .center_block{
+    padding-top: 23px;
+    padding-bottom: 20px;
+}
+
+.navigation .center_block {
+    padding-top: 0;
+}
+
+header form{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/*Навигация*/
+.navbar{
+    margin-bottom: 0;
+}
+.navigation{
+    background-color: #f1f1f1;
+    height: 35px;
+}
+.navigation .navbar-inner{
+    background: none transparent;
+    border-radius: 0;
+    border: none;
+    padding: 3px 4px;
+    box-shadow: none;
+
+}
+.navigation .navbar-inner a{
+    padding: 3px 0;
+    margin-top: -7px;
+}
+.navbar-inner .main{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #494949;
+    text-transform: uppercase;
+}
+.navigation .navbar-inner .main a:hover, .navigation .navbar-inner .second a:hover{
+    color: rgb(91, 189, 80);
+}
+.navbar-inner .second{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.8em;
+    float: right;
+    padding: 2px 0;
+    color: rgb(81, 81, 81);
+}
+.navbar-inner .second a{
+    padding: 3px 0;
+}
+/*Конец Навигация*/
+.banner{
+    background: url("../img/banner.jpg") no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+
+}
+header form{
+    margin: 0 auto;
+}
+header form div{
+    display: block;
+    float: left;
+    padding-left: 0;
+    margin-left: 50px;
+}
+
+
+
+
+/* end header*/
+/*ordering_food*/
+.ordering_food .center_block{
+    padding-top: 1%;
+}
+h4{
+    margin-top: -10px;
+    padding-bottom:40px;
+}
+.ordering_food .center_block .arrow_ordering{
+    width: 7%;
+    margin-top: -3%;
+}
+.ordering_food .center_block .choise{
+    width: 15%;
+    margin-left: 10px;
+    margin-bottom: 6%;
+}
+
+/*end ordering_food*/
+/*special_offers*/
+
+.special_offers{
+    background-color: #f1f1f1;
+    padding:30px 0;
+}
+
+.item{
+    margin-top: 20px;
+    display: inline-block;
+    width: 30%;
+    background-color: #ffffff;
+    padding: 5px;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.item img {
+    width: 45%;
+    float: left;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+
+/*end special_offers*/
+/*.top_cuisines*/
+.top_cuisines{
+    padding-top: 10px;
+}
+.top_cuisines h5{
+    padding-bottom: 15px;
+}
+.top_cuisines .span4 img {
+    width: 40%;
+    padding: 6px;
+}
+.top_cuisines .span4 .second_col{
+    padding-left: 20px;
+}
+
+.top_cuisines .span7 figure {
+    margin: 5px ;
+    width: 22%;
+    float: left;
+    border: 1px solid  #f1f1f1;
+    border-radius: 3px;
+}
+.top_cuisines .span7 figure figcaption{
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.top_cuisines .span7 figure img{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px
+}
+.top_cuisines .span7 .second_row{
+    margin-top: 20px;
+}
+/*.end top_cuisines*/
+/*.orders_banner*/
+.orders_banner{
+
+}
+.banner_mini{
+    border-top: 2px solid #f1f1f1;
+    border-bottom: 2px solid #f1f1f1;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.banner_mini button{
+    position: absolute;
+    top: 46%;
+    left: 71%;
+}
+.orders_banner .order figure{
+    width: 30%;
+    display: block;
+    float: left;
+    margin: 50px 5px;
+    padding: 5px;
+
+}
+.orders_banner .order{
+    padding-left: 40px;
+}
+.orders_banner .order figure img{
+    float: left;
+    width: 30%;
+    padding-right: 10px;
+}
+.orders_banner .order figure{
+    padding-top: 40px;
+}
+
+/*.end orders_banner*/
+/*footer*/
+.footer_main{
+    padding-top: 30px;
+    background-color: #515151;
+}
+footer .span3 li{
+    list-style-image: url("../img/mini_arrow.png");
+}
+footer #facebook {
+    list-style-image: url("../img/icon_facebook.png");
+}
+footer #twitter {
+    list-style-image: url("../img/icon_twitter.png");
+}
+footer #linkedin {
+    list-style-image: url("../img/icon_linkedin.png");
+}
+footer #google {
+    list-style-image: url("../img/icon_google.png");
+}
+footer #footer_1{
+    width: 100%;
+    padding-left: 20px;
+}
+footer .span3 {
+    margin-left: 0;
+}
+footer .span3 ul li{
+    padding: 6px;
+    border-bottom: dashed 1px #808080;
+    list-style-image: url("../img/mini_arrow.png");
+    width: 70%;
+}
+footer .span3 ul li:last-child{
+    border-bottom: none;
+}
+footer #footer_2{
+    padding: 30px;
+    margin: 0;
+    background-color: #4d4d4d;
+}
+.top_cuisines .span4 h5{
+    margin-left: -50%;
+}
+
+.top_cuisines .span7 h5{
+    margin-left: -80%;
+}
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.banner_main .main_block {
+    margin-top: -21%;
+    position: relative;
+    z-index: 9999;
+}
+.ordering_food ul{
+    list-style: none;
+    margin: 0;
+    padding: 40px 0 0 0;
+}
+.ordering_food li{
+    display: block;
+    float: left;
+}
+.ordering_food li  img{
+    width: 69%;
+}
+
+.arrow_ordering img{
+    margin-top: 100%;
+}
+.ordering_food{
+    margin-top: 190px;
+}
+
+
+
+.top_cuisines ol{
+    list-style: none;
+    margin: 20px;
+}
+.top_cuisines li{
+    border: 1px solid #808080;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+.top_cuisines figure{
+    padding: 0;
+    width: 55%;
+}
+.top_cuisines figcaption{
+    background-color: #f1f1f1;
+}*/
+
