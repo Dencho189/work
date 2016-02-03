@@ -12,6 +12,7 @@ h2, h5, .top_cuisines .order .green_text,footer span,#logo_left, .order span{
 }
 #logo_left_red{
     color: red;
+    background-color: #ffffff;
 }
 #contact_right{
     font-size: 1em;
